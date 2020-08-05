@@ -1,0 +1,30 @@
+.section {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+.header {
+  height: 100vh;
+  background-image: url("./../Images/Header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+nav .brand-logo,
+li {
+  font-family: "Bree Serif", serif;
+}
+
+.nav-wrapper {
+  position: fixed;
+  z-index: 1;
+}
+
+.tabs .indicator {
+  background-color: green;
+}
+
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+  background: transparent;
+}
